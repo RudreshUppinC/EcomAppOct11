@@ -11,6 +11,9 @@ protocol ImageSelectViewDelegate: AnyObject {
     func didPressRemoveButton()
 }
 
+
+
+
 class ImageSelectionView: UIView {
   
     var view: UIView!
