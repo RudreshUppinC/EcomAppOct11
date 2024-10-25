@@ -12,10 +12,11 @@ protocol ImageSelectViewDelegate: AnyObject {
 }
 
 
-
-
 class ImageSelectionView: UIView {
   
+    
+    
+    
     var view: UIView!
     weak var delegate: ImageSelectViewDelegate?
 
